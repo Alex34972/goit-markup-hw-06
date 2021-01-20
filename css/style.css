@@ -637,7 +637,7 @@ img {
 }
 
 .forma {
-  margin-left: 93px;
+  margin-left: auto;
 }
 .forma-label {
   width: 358px;
@@ -763,7 +763,6 @@ img {
 }
 .form-ikon:hover,.form-ikon:focus-within {
   fill: var(--accent-color);
-  
 }
 .form-text label {
   margin-bottom: 4px;
