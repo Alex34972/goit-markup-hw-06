@@ -670,7 +670,6 @@ img {
   left: 16px;
   transform: translateY(-50%);
 
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
@@ -719,7 +718,6 @@ img {
   display: flex;
   flex-direction: column;
  
-  font-weight: normal;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -765,17 +763,13 @@ img {
   margin-bottom: 4px;
 }
 textarea {
-  padding: 5px;
+  padding: 12px 16px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   box-sizing: border-box;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-text textarea::placeholder {
-  padding: 12px 16px;
-
-  font-weight: normal;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
@@ -814,18 +808,14 @@ textarea {
 }
 .agreeme {
   display: flex;
+  margin-right: 4px;
 
-  font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
   color: var(--dark-secondari-color);
 }
 .contract {
   display: flex;
-  margin-left: 4px;
 
-  font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
   text-decoration-line: underline;
   color: var(--accent-color);
